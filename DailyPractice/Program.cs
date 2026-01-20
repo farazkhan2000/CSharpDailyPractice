@@ -2,7 +2,7 @@
 
 // Add using for every folder you use exercises from
 using DailyPractice.Basics;
-//using DailyPractice.Conditionals;
+using DailyPractice.Conditionals;
 // using DailyPractice.Loops;          // uncomment when you add this folder
 // using DailyPractice.Methods;         // uncomment later
 
@@ -25,9 +25,10 @@ namespace DailyPractice
             Console.WriteLine("  4   String Basics");
 
             Console.WriteLine("\nConditionals:");
-            //Console.WriteLine("  3   Simple if-else");
-            // Console.WriteLine("  4   Else-if ladder");     // add when ready
-            // Console.WriteLine("  5   Switch example");
+            Console.WriteLine("  5   Simple if-else");
+            Console.WriteLine("  6   else-if Ladder");
+            Console.WriteLine("  7   switch Statement");
+            Console.WriteLine("  8   Ternary Operator");
 
             // Console.WriteLine("\nLoops:");
             // Console.WriteLine("  6   For loop basics");
@@ -59,13 +60,20 @@ namespace DailyPractice
                     StringBasics.Run();
                     break;
 
-                //case "3":
-                //    IfElseSimple.Run();
-                //    break;
+                case "5": 
+                    IfElseSimple.Run(); 
+                    break;
 
-                // case "4":
-                //     ElseIfLadder.Run();
-                //     break;
+                case "6": 
+                    ElseIfLadder.Run(); 
+                    break;
+
+                case "7": 
+                    SwitchStatement.Run(); 
+                    break;
+                case "8": 
+                    TernaryOperator.Run(); 
+                    break;
 
                 case "0":
                     Console.WriteLine("Goodbye! See you next time.");
