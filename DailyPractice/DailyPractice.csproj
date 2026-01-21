@@ -51,6 +51,10 @@
     <Compile Include="Conditionals\IfElseSimple.cs" />
     <Compile Include="Conditionals\SwitchStatement.cs" />
     <Compile Include="Conditionals\TernaryOperator.cs" />
+    <Compile Include="Loops\BreakAndContinue.cs" />
+    <Compile Include="Loops\DoWhileLoop.cs" />
+    <Compile Include="Loops\ForLoopBasics.cs" />
+    <Compile Include="Loops\WhileLoop.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,7 +62,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Loops\" />
     <Folder Include="Methods\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

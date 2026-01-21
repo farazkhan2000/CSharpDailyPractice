@@ -1,10 +1,9 @@
 ﻿using System;
 
-// Add using for every folder you use exercises from
 using DailyPractice.Basics;
 using DailyPractice.Conditionals;
-// using DailyPractice.Loops;          // uncomment when you add this folder
-// using DailyPractice.Methods;         // uncomment later
+using DailyPractice.Loops;
+// using DailyPractice.Methods;         
 
 namespace DailyPractice
 {
@@ -30,9 +29,11 @@ namespace DailyPractice
             Console.WriteLine("  7   switch Statement");
             Console.WriteLine("  8   Ternary Operator");
 
-            // Console.WriteLine("\nLoops:");
-            // Console.WriteLine("  6   For loop basics");
-            // ... add more later
+            Console.WriteLine("\nLoops:");
+            Console.WriteLine("  9   For Loop Basics");
+            Console.WriteLine(" 10   While Loop");
+            Console.WriteLine(" 11   Do-While Loop");
+            Console.WriteLine(" 12   Break and Continue");
 
             Console.WriteLine("\n0   Exit");
             Console.WriteLine("=====================================");
@@ -73,6 +74,22 @@ namespace DailyPractice
                     break;
                 case "8": 
                     TernaryOperator.Run(); 
+                    break;
+
+                case "9":
+                    ForLoopBasics.Run();
+                    break;
+
+                case "10":
+                    WhileLoop.Run();
+                    break;
+
+                case "11":
+                    DoWhileLoop.Run();
+                    break;
+
+                case "12":
+                    BreakAndContinue.Run();
                     break;
 
                 case "0":
