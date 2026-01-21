@@ -6,38 +6,33 @@ namespace DailyPractice.Basics
     {
         public static void Run()
         {
-            Console.WriteLine("=== Variables and Data Types ===");
+            Console.WriteLine("══════════════════════════════════════════");
+            Console.WriteLine("       Variables and Data Types Demo        ");
+            Console.WriteLine("══════════════════════════════════════════");
             Console.WriteLine();
 
-            // Text (string)
+            // Different data types with meaningful names
             string name = "Faraz";
             string favoriteColor = "Blue";
-
-            // Whole numbers
             int age = 25;
-            int yearLearningCSharp = 2026;
-
-            // Numbers with decimals
+            int yearStartedCSharp = 2026;
             double heightInMeters = 1.68;
-            float temperature = 22.5f;          // note the 'f' at the end
-
-            // True/False
+            float currentTemperature = 22.5f;   // 'f' suffix for float
             bool likesProgramming = true;
-
-            // Character (single letter/symbol)
             char favoriteLetter = 'F';
 
-            // Print everything nicely
-            Console.WriteLine($"My name is {name}");
-            Console.WriteLine($"I am {age} years old");
-            Console.WriteLine($"Height: {heightInMeters} meters");
-            Console.WriteLine($"Current temperature: {temperature} °C");
-            Console.WriteLine($"Favorite color: {favoriteColor}");
-            Console.WriteLine($"Favorite letter: {favoriteLetter}");
-            Console.WriteLine($"Started learning C# in: {yearLearningCSharp}");
-            Console.WriteLine($"Do I like programming? {likesProgramming}");
+            // Nice aligned output using string interpolation
+            Console.WriteLine($"Name              : {name}");
+            Console.WriteLine($"Age               : {age} years");
+            Console.WriteLine($"Height            : {heightInMeters:F2} m");
+            Console.WriteLine($"Temperature       : {currentTemperature:F1} °C");
+            Console.WriteLine($"Favorite color    : {favoriteColor}");
+            Console.WriteLine($"Favorite letter   : {favoriteLetter}");
+            Console.WriteLine($"Started C# in     : {yearStartedCSharp}");
+            Console.WriteLine($"Likes programming?: {(likesProgramming ? "Yes" : "No")}");
 
-            Console.WriteLine("\nAll these values are stored in variables!");
+            Console.WriteLine();
+            Console.WriteLine("→ These values are stored in different variable types!");
         }
     }
 }

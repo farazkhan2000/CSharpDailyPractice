@@ -6,10 +6,16 @@ namespace DailyPractice.Basics
     {
         public static void Run()
         {
-            Console.WriteLine("=== Hello World - My First Program ===");
+            Console.WriteLine("══════════════════════════════════════════");
+            Console.WriteLine("          Hello World - First Program         ");
+            Console.WriteLine("══════════════════════════════════════════");
+            Console.WriteLine();
+
             Console.WriteLine("Hello, World!");
-            Console.WriteLine("I'm learning C# and this is my first output.");
-            Console.WriteLine("Today feels great!");
+            Console.WriteLine("I'm learning C# step by step.");
+            Console.WriteLine("Today is a great day to code! 🚀");
+
+            Console.WriteLine();
         }
     }
 }
