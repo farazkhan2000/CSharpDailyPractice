@@ -55,14 +55,16 @@
     <Compile Include="Loops\DoWhileLoop.cs" />
     <Compile Include="Loops\ForLoopBasics.cs" />
     <Compile Include="Loops\WhileLoop.cs" />
+    <Compile Include="Methods\MethodOverloading.cs" />
+    <Compile Include="Methods\MethodWithParameters.cs" />
+    <Compile Include="Methods\ReturnValueExample.cs" />
+    <Compile Include="Methods\SimpleMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Methods\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

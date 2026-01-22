@@ -3,7 +3,7 @@
 using DailyPractice.Basics;
 using DailyPractice.Conditionals;
 using DailyPractice.Loops;
-// using DailyPractice.Methods;         
+using DailyPractice.Methods;
 
 namespace DailyPractice
 {
@@ -34,6 +34,12 @@ namespace DailyPractice
             Console.WriteLine(" 10   While Loop");
             Console.WriteLine(" 11   Do-While Loop");
             Console.WriteLine(" 12   Break and Continue");
+
+            Console.WriteLine("\nMethods:");
+            Console.WriteLine(" 13   Simple Method (no parameters)");
+            Console.WriteLine(" 14   Method with Parameters");
+            Console.WriteLine(" 15   Methods that Return Values");
+            Console.WriteLine(" 16   Method Overloading");
 
             Console.WriteLine("\n0   Exit");
             Console.WriteLine("=====================================");
@@ -90,6 +96,22 @@ namespace DailyPractice
 
                 case "12":
                     BreakAndContinue.Run();
+                    break;
+
+                case "13":
+                    SimpleMethod.Run();
+                    break;
+
+                case "14":
+                    MethodWithParameters.Run();
+                    break;
+
+                case "15":
+                    ReturnValueExample.Run();
+                    break;
+
+                case "16":
+                    MethodOverloading.Run();
                     break;
 
                 case "0":
