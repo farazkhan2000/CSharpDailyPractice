@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArraysCollections\ArrayOperations.cs" />
+    <Compile Include="ArraysCollections\DictionaryBasics.cs" />
+    <Compile Include="ArraysCollections\ListBasics.cs" />
+    <Compile Include="ArraysCollections\SingleDimensionArrays.cs" />
     <Compile Include="Basics\HelloWorld.cs" />
     <Compile Include="Basics\MathOperations.cs" />
     <Compile Include="Basics\StringBasics.cs" />

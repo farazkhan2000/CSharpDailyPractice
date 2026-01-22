@@ -4,6 +4,7 @@ using DailyPractice.Basics;
 using DailyPractice.Conditionals;
 using DailyPractice.Loops;
 using DailyPractice.Methods;
+using DailyPractice.ArraysCollections;
 
 namespace DailyPractice
 {
@@ -40,6 +41,12 @@ namespace DailyPractice
             Console.WriteLine(" 14   Method with Parameters");
             Console.WriteLine(" 15   Methods that Return Values");
             Console.WriteLine(" 16   Method Overloading");
+
+            Console.WriteLine("\nArrays & Collections:");
+            Console.WriteLine(" 17   Single Dimension Arrays");
+            Console.WriteLine(" 18   Array Operations (sum/min/max)");
+            Console.WriteLine(" 19   List<T> Basics");
+            Console.WriteLine(" 20   Dictionary Basics (key-value)");
 
             Console.WriteLine("\n0   Exit");
             Console.WriteLine("=====================================");
@@ -112,6 +119,22 @@ namespace DailyPractice
 
                 case "16":
                     MethodOverloading.Run();
+                    break;
+
+                case "17":
+                    SingleDimensionArrays.Run();
+                    break;
+
+                case "18":
+                    ArrayOperations.Run();
+                    break;
+
+                case "19":
+                    ListBasics.Run();
+                    break;
+
+                case "20":
+                    DictionaryBasics.Run();
                     break;
 
                 case "0":
