@@ -63,6 +63,7 @@
     <Compile Include="Methods\MethodWithParameters.cs" />
     <Compile Include="Methods\ReturnValueExample.cs" />
     <Compile Include="Methods\SimpleMethod.cs" />
+    <Compile Include="MiniProjects\SimpleCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

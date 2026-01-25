@@ -5,6 +5,7 @@ using DailyPractice.Conditionals;
 using DailyPractice.Loops;
 using DailyPractice.Methods;
 using DailyPractice.ArraysCollections;
+using DailyPractice.MiniProjects;
 
 namespace DailyPractice
 {
@@ -47,6 +48,9 @@ namespace DailyPractice
             Console.WriteLine(" 18   Array Operations (sum/min/max)");
             Console.WriteLine(" 19   List<T> Basics");
             Console.WriteLine(" 20   Dictionary Basics (key-value)");
+
+            Console.WriteLine("\nMini Projects:");
+            Console.WriteLine(" 21   Simple Calculator"); 
 
             Console.WriteLine("\n0   Exit");
             Console.WriteLine("=====================================");
@@ -135,6 +139,10 @@ namespace DailyPractice
 
                 case "20":
                     DictionaryBasics.Run();
+                    break;
+
+                case "21":
+                    SimpleCalculator.Run();
                     break;
 
                 case "0":
